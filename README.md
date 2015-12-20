@@ -1,53 +1,13 @@
-# Bookstore
+# bookstore-client
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Coding along with [Frank Treacy](https://github.com/frank06). Frank is awesome for many reasons, but especially because he's committed to keeping his Ember tutorials up-to-date. Check them out at [Ember Igniter](http://emberigniter.com).
 
-## Prerequisites
-
-You will need the following things properly installed on your computer.
-
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+This client is built primarily by following along with [Building a UI Around an Ember 2.0 Data App](http://emberigniter.com/building-user-interface-around-ember-data-app/), with a little bit more from [Building a modern bridge between Ember 2.0 and Rails 5 with JSON API](http://emberigniter.com/modern-bridge-ember-and-rails-5-with-json-api/).
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+Clone this repository.
 
-## Running / Development
+Install dependencies with `npm install && bower install`.
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Run the client server with `ember server`. If you want to work with [the API](https://github.com/jrhorn424/bookstore-api), make sure it is up and running and use `ember server --proxy http://localhost:3000`, instead.
