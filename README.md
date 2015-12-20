@@ -4,6 +4,11 @@ Coding along with [Frank Treacy](https://github.com/frank06). Frank is awesome f
 
 This client is built primarily by following along with [Building a UI Around an Ember 2.0 Data App](http://emberigniter.com/building-user-interface-around-ember-data-app/), with a little bit more from [Building a modern bridge between Ember 2.0 and Rails 5 with JSON API](http://emberigniter.com/modern-bridge-ember-and-rails-5-with-json-api/).
 
+## Elsewhere
+
+- Frank's reference implementation is kept up-to-date here: [frank06/bookstore-client](https://github.com/frank06/bookstore-client).
+- My API implementation is here: [jrhorn424/bookstore-api](https://github.com/jrhorn424/bookstore-api).
+
 ## Installation
 
 Clone this repository.
